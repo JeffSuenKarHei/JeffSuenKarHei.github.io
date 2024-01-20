@@ -576,4 +576,12 @@ justify-content:center;
     .BacktoTop {
         height:40px;
     }
+
+    .item-info {
+        flex-direction: column;
+    }
+
+    .info-flex {
+        width: 50% ;
+    }
 }
