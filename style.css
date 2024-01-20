@@ -107,7 +107,6 @@ hr {
     display: flex;
     flex-direction: row;
     justify-content:space-evenly;
-    width:20%;
 }
 
 .button-topbanner {
@@ -441,4 +440,112 @@ justify-content:center;
 .BacktoTop:hover {
     background-color:red;
     border:none;
+}
+
+
+@media only screen and (max-width: 768px) {
+    
+    h1 {
+        font-size : 36px;
+        color : #ffffff;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+    
+    h2 {
+        font-size : 18px;
+        color : #ffffff;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+    
+    p {
+        font-size : 10px;
+        color : #ffffff;
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    li {
+        font-size : 18px;
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    .top-banner {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        height: 50vh;
+        justify-content: center;
+        align-items: center;
+        background-image: url(Images/home-bg.jpg);
+        background-size: cover;
+    }
+    
+    .profile-pic {
+        width: 100px;
+        height: 100px;
+    }
+
+    .CV-button {
+        width: 150px;
+        height: 40px;
+        border: 2px solid white;
+        box-sizing: border-box;
+        margin: 10px;
+        text-decoration: none;
+    }
+    
+    .buttons-container {
+        margin: 5px;
+    }
+
+    .button-topbanner {
+        margin: 10px 5px;
+        width: 50px;
+        height: 50px;
+    }
+
+
+    .about-me {
+        height: auto;
+        flex-direction: column;
+        
+    }
+
+    .description {
+            display:flex;
+            flex-direction: column;
+            justify-content:space-around;
+            width:auto;
+            padding:10%;
+            background-image: url(Images/Mtog-character1309-bg.jpg);
+            background-position-x: left;
+            background-size: cover;
+            align-items: flex-start;
+        
+    }
+
+    .about-interact {
+        display:flex;
+        flex-direction:column;
+        width: auto;
+        padding: 5%;
+        justify-content: flex-start;
+        gap: 30px;
+    }
+
+    .school-img {
+        width:100px;
+        height:100px;
+    }
+    
+    .skills {
+        height: auto;
+    }
+
+    .selfie {
+        display: none;
+    }
+
+    .software-icon {
+        width: 18vw;
+    }
 }
